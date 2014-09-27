@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91B2306A19843DE6003534E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B2306919843DE6003534E4 /* Foundation.framework */; };
+		91B2306C19843DE6003534E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B2306B19843DE6003534E4 /* CoreGraphics.framework */; };
+		91B2306E19843DE6003534E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B2306D19843DE6003534E4 /* UIKit.framework */; };
+		91B2307419843DE6003534E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91B2307219843DE6003534E4 /* InfoPlist.strings */; };
+		91B2307619843DE6003534E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B2307519843DE6003534E4 /* main.m */; };
+		91B2307A19843DE6003534E4 /* BACAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B2307919843DE6003534E4 /* BACAppDelegate.m */; };
+		91B2307D19843DE6003534E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B2307B19843DE6003534E4 /* Main.storyboard */; };
+		91B2308019843DE6003534E4 /* BACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B2307F19843DE6003534E4 /* BACViewController.m */; };
+		91B2308219843DE6003534E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91B2308119843DE6003534E4 /* Images.xcassets */; };
+		91B2308919843DE6003534E4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B2308819843DE6003534E4 /* XCTest.framework */; };
+		91B2308A19843DE6003534E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B2306919843DE6003534E4 /* Foundation.framework */; };
+		91B2308B19843DE7003534E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B2306D19843DE6003534E4 /* UIKit.framework */; };
+		91B2309319843DE7003534E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91B2309119843DE7003534E4 /* InfoPlist.strings */; };
+		91B2309519843DE7003534E4 /* BasketballAssistantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B2309419843DE7003534E4 /* BasketballAssistantTests.m */; };
+		91B5A19419CAA16C00BD2118 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B5A19319CAA16C00BD2118 /* NSDate+Helper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91B2308C19843DE7003534E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91B2305E19843DE6003534E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91B2306519843DE6003534E4;
+			remoteInfo = BasketballAssistant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91B2306619843DE6003534E4 /* BasketballAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasketballAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B2306919843DE6003534E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91B2306B19843DE6003534E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91B2306D19843DE6003534E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		91B2307119843DE6003534E4 /* BasketballAssistant-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BasketballAssistant-Info.plist"; sourceTree = "<group>"; };
+		91B2307319843DE6003534E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91B2307519843DE6003534E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91B2307719843DE6003534E4 /* BasketballAssistant-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BasketballAssistant-Prefix.pch"; sourceTree = "<group>"; };
+		91B2307819843DE6003534E4 /* BACAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BACAppDelegate.h; sourceTree = "<group>"; };
+		91B2307919843DE6003534E4 /* BACAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BACAppDelegate.m; sourceTree = "<group>"; };
+		91B2307C19843DE6003534E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91B2307E19843DE6003534E4 /* BACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BACViewController.h; sourceTree = "<group>"; };
+		91B2307F19843DE6003534E4 /* BACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BACViewController.m; sourceTree = "<group>"; };
+		91B2308119843DE6003534E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		91B2308719843DE6003534E4 /* BasketballAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasketballAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B2308819843DE6003534E4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		91B2309019843DE7003534E4 /* BasketballAssistantTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BasketballAssistantTests-Info.plist"; sourceTree = "<group>"; };
+		91B2309219843DE7003534E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91B2309419843DE7003534E4 /* BasketballAssistantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasketballAssistantTests.m; sourceTree = "<group>"; };
+		91B5A19219CAA16B00BD2118 /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helper.h"; sourceTree = "<group>"; };
+		91B5A19319CAA16C00BD2118 /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helper.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91B2306319843DE6003534E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B2306C19843DE6003534E4 /* CoreGraphics.framework in Frameworks */,
+				91B2306E19843DE6003534E4 /* UIKit.framework in Frameworks */,
+				91B2306A19843DE6003534E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B2308419843DE6003534E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B2308919843DE6003534E4 /* XCTest.framework in Frameworks */,
+				91B2308B19843DE7003534E4 /* UIKit.framework in Frameworks */,
+				91B2308A19843DE6003534E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91B2305D19843DE6003534E4 = {
+			isa = PBXGroup;
+			children = (
+				91B2306F19843DE6003534E4 /* BasketballAssistant */,
+				91B2308E19843DE7003534E4 /* BasketballAssistantTests */,
+				91B2306819843DE6003534E4 /* Frameworks */,
+				91B2306719843DE6003534E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91B2306719843DE6003534E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91B2306619843DE6003534E4 /* BasketballAssistant.app */,
+				91B2308719843DE6003534E4 /* BasketballAssistantTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91B2306819843DE6003534E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91B2306919843DE6003534E4 /* Foundation.framework */,
+				91B2306B19843DE6003534E4 /* CoreGraphics.framework */,
+				91B2306D19843DE6003534E4 /* UIKit.framework */,
+				91B2308819843DE6003534E4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91B2306F19843DE6003534E4 /* BasketballAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				91B5A19219CAA16B00BD2118 /* NSDate+Helper.h */,
+				91B5A19319CAA16C00BD2118 /* NSDate+Helper.m */,
+				91B2307819843DE6003534E4 /* BACAppDelegate.h */,
+				91B2307919843DE6003534E4 /* BACAppDelegate.m */,
+				91B2307B19843DE6003534E4 /* Main.storyboard */,
+				91B2307E19843DE6003534E4 /* BACViewController.h */,
+				91B2307F19843DE6003534E4 /* BACViewController.m */,
+				91B2308119843DE6003534E4 /* Images.xcassets */,
+				91B2307019843DE6003534E4 /* Supporting Files */,
+			);
+			path = BasketballAssistant;
+			sourceTree = "<group>";
+		};
+		91B2307019843DE6003534E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91B2307119843DE6003534E4 /* BasketballAssistant-Info.plist */,
+				91B2307219843DE6003534E4 /* InfoPlist.strings */,
+				91B2307519843DE6003534E4 /* main.m */,
+				91B2307719843DE6003534E4 /* BasketballAssistant-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91B2308E19843DE7003534E4 /* BasketballAssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				91B2309419843DE7003534E4 /* BasketballAssistantTests.m */,
+				91B2308F19843DE7003534E4 /* Supporting Files */,
+			);
+			path = BasketballAssistantTests;
+			sourceTree = "<group>";
+		};
+		91B2308F19843DE7003534E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91B2309019843DE7003534E4 /* BasketballAssistantTests-Info.plist */,
+				91B2309119843DE7003534E4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91B2306519843DE6003534E4 /* BasketballAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91B2309819843DE7003534E4 /* Build configuration list for PBXNativeTarget "BasketballAssistant" */;
+			buildPhases = (
+				91B2306219843DE6003534E4 /* Sources */,
+				91B2306319843DE6003534E4 /* Frameworks */,
+				91B2306419843DE6003534E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasketballAssistant;
+			productName = BasketballAssistant;
+			productReference = 91B2306619843DE6003534E4 /* BasketballAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91B2308619843DE6003534E4 /* BasketballAssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91B2309B19843DE7003534E4 /* Build configuration list for PBXNativeTarget "BasketballAssistantTests" */;
+			buildPhases = (
+				91B2308319843DE6003534E4 /* Sources */,
+				91B2308419843DE6003534E4 /* Frameworks */,
+				91B2308519843DE6003534E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91B2308D19843DE7003534E4 /* PBXTargetDependency */,
+			);
+			name = BasketballAssistantTests;
+			productName = BasketballAssistantTests;
+			productReference = 91B2308719843DE6003534E4 /* BasketballAssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91B2305E19843DE6003534E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BAC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Matthew Molloy";
+				TargetAttributes = {
+					91B2308619843DE6003534E4 = {
+						TestTargetID = 91B2306519843DE6003534E4;
+					};
+				};
+			};
+			buildConfigurationList = 91B2306119843DE6003534E4 /* Build configuration list for PBXProject "BasketballAssistant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91B2305D19843DE6003534E4;
+			productRefGroup = 91B2306719843DE6003534E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91B2306519843DE6003534E4 /* BasketballAssistant */,
+				91B2308619843DE6003534E4 /* BasketballAssistantTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91B2306419843DE6003534E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B2308219843DE6003534E4 /* Images.xcassets in Resources */,
+				91B2307419843DE6003534E4 /* InfoPlist.strings in Resources */,
+				91B2307D19843DE6003534E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B2308519843DE6003534E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B2309319843DE7003534E4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91B2306219843DE6003534E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B5A19419CAA16C00BD2118 /* NSDate+Helper.m in Sources */,
+				91B2308019843DE6003534E4 /* BACViewController.m in Sources */,
+				91B2307619843DE6003534E4 /* main.m in Sources */,
+				91B2307A19843DE6003534E4 /* BACAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B2308319843DE6003534E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B2309519843DE7003534E4 /* BasketballAssistantTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91B2308D19843DE7003534E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91B2306519843DE6003534E4 /* BasketballAssistant */;
+			targetProxy = 91B2308C19843DE7003534E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91B2307219843DE6003534E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91B2307319843DE6003534E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		91B2307B19843DE6003534E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91B2307C19843DE6003534E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91B2309119843DE7003534E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91B2309219843DE7003534E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91B2309619843DE7003534E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91B2309719843DE7003534E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91B2309919843DE7003534E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasketballAssistant/BasketballAssistant-Prefix.pch";
+				INFOPLIST_FILE = "BasketballAssistant/BasketballAssistant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91B2309A19843DE7003534E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasketballAssistant/BasketballAssistant-Prefix.pch";
+				INFOPLIST_FILE = "BasketballAssistant/BasketballAssistant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		91B2309C19843DE7003534E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BasketballAssistant.app/BasketballAssistant";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasketballAssistant/BasketballAssistant-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BasketballAssistantTests/BasketballAssistantTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		91B2309D19843DE7003534E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BasketballAssistant.app/BasketballAssistant";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasketballAssistant/BasketballAssistant-Prefix.pch";
+				INFOPLIST_FILE = "BasketballAssistantTests/BasketballAssistantTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91B2306119843DE6003534E4 /* Build configuration list for PBXProject "BasketballAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B2309619843DE7003534E4 /* Debug */,
+				91B2309719843DE7003534E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91B2309819843DE7003534E4 /* Build configuration list for PBXNativeTarget "BasketballAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B2309919843DE7003534E4 /* Debug */,
+				91B2309A19843DE7003534E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91B2309B19843DE7003534E4 /* Build configuration list for PBXNativeTarget "BasketballAssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B2309C19843DE7003534E4 /* Debug */,
+				91B2309D19843DE7003534E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91B2305E19843DE6003534E4 /* Project object */;
+}
